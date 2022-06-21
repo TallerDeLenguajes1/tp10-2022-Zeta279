@@ -28,7 +28,7 @@ namespace TrabajoPractico10{
         public List<string> CivilizationBonus { get; set; }
     }
 
-    public class Root
+    public class RootCiv
     {
         [JsonPropertyName("civilizations")]
         public List<Civilization> Civilizations { get; set; }
